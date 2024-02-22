@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 120))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/bee_domp")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BeeXDomp")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/cari_kawanindonesia")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/5a8723904efd2d9dc6728.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/c541da3521feced201999.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/2dee4df66472625b2ea82.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/68e169be4294a291ebf8b.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/0d8b2acb6b7fd31de0868.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/5a8723904efd2d9dc6728.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/c3f4f8a443333842dd1f3.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/0d8b2acb6b7fd31de0868.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/0d8b2acb6b7fd31de0868.jpg"
 STREAM_IMG_URL = "https://graph.org/file/0d8b2acb6b7fd31de0868.jpg"
